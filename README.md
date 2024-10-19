@@ -2,6 +2,8 @@
 
 This is a simple [Ulauncher](https://ulauncher.io/) extension meant to create notes quickly.
 
+![gif showing how the extension works](https://github.com/maynouf/ulauncher-simple-notes/blob/main/images/ulauncher-simple-notes.gif)
+
 I encourage the reader to [report any bugs or problems that you might find](https://github.com/maynouf/ulauncher-simple-notes/issues) using the extension.
 
 
