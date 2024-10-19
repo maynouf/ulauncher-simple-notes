@@ -1,0 +1,56 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Simple notes extension",
+  "description": "A simple extension to append notes to a file.",
+  "developer_name": "maynouf",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "note_kw",
+      "type": "keyword",
+      "name": "Note Keyword",
+      "description": "The keyword you want to use to write a note.",
+      "default_value": "note"
+    },
+    {
+      "id": "note_path",
+      "type": "input",
+      "name": "note_path",
+      "description": "Path to the note file",
+      "default_value": "~/note.md"
+    },
+    {
+      "id": "open_arg",
+      "type": "keyword",
+      "name": "Open notes argument",
+      "description": "The argument you want to use to open the notes.",
+      "default_value": "open"
+    },
+    {
+      "id": "date_timestamp",
+      "type": "select",
+      "name": "date_timestamp",
+      "description": "Include the date before the note?",
+      "options": [
+        {"value": true, "text": "yes"},
+        {"value": false, "text": "no"}
+      ],
+      "default_value": false
+    },
+    {
+      "id": "time_timestamp",
+      "type": "select",
+      "name": "time_timestamp",
+      "description": "Include the time before the note?",
+      "options": 
+      [
+        {"value": true, "text": "yes"},
+        {"value": false, "text": "no"}
+      ],
+      "default_value": false
+    }
+  ]
+}
